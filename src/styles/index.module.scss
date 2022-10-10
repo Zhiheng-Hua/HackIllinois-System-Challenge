@@ -1,0 +1,29 @@
+.contentContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 20px;
+}
+
+.contentContainer > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  // text-align: center;
+  padding: 40px 15px;
+  font-size: 16px;
+}
+
+.eventType {
+	display: inline-block;
+	margin: 0;
+	padding: 2px;
+}
+
+.headerContainer {
+	background-color: #155da1;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+	padding-left: 50px;
+	letter-spacing: 1px;
+}
